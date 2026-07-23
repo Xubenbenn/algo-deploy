@@ -1,0 +1,13 @@
+# 机台环境参数
+machine:
+  host: "192.168.1.100"        # 机台 IP
+  port: 22
+  user: "operator"
+  deploy_path: "/opt/algo/app/"
+  python_bin: "/opt/algo/venv/bin/python3"
+  log_path: "/opt/algo/logs/"
+
+deploy:
+  keep_versions: 3              # 保留最近 N 个版本用于回滚
+  health_check_timeout: 30      # 健康检查超时秒数
+  rollback_on_failure: true     # 失败自动回滚

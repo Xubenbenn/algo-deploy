@@ -1,0 +1,4 @@
+artifacts/*.tar.gz
+dist/*.tar.gz
+__pycache__/
+*.pyc

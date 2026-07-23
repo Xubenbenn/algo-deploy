@@ -1,0 +1,12 @@
+machine_config:
+  platform: linux-x86_64
+  python: '3.11'
+artifact:
+  name: algo-machine
+  version: 1.0.0
+  source: ../source-repo/dist/algo-machine.tar.gz
+  sha256: 5e2fd4ed034bf98779a0b74dd34fbd8ec168a745a976fe43a655f9206b7f8ff4
+  build_time: '2026-07-23T07:44:12Z'
+external_dependencies:
+- numpy==1.26.4
+- scipy==1.13.0
